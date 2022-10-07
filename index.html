@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>"Mi pagina web personal"</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <center>
+        <nav class="navbar-inverse" style="position:sticky;top:0;opacity:0.8;z-index: 99999;background-color: aqua;">
+            <div class="navbar-header">
+            <a class="navbar-brand"  id="barra"href="#">
+                <img src="20066255.png" style="border-radius:100px;" id="imagen">Esteban Iglesias
+            </a>
+            </div>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#secccion-sobre-mi">Sobre mi</a></li>
+                    <li><a href="#seccion-mi-comida-favorita">Mi comida favorita</a></li>
+                    <li><a href="#videojuegos-favoritos">Mis videojuegos favoritos</a></li>
+                    <li><a href="#donde-quisiera-ir">A donde me gustaria ir</a></li>
+                    <li><a href="#pasatiempos-favotitos">Mis pasatiempos favoritos</a></li>
+                </ul>
+            </div>
+        <button data-toggle="modal" data-target="#Bienvenido" class="btn btn-danger" id="boton">Bienvenido</button>
+        </nav>
+        <div class="modal fade" id="Bienvenido">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal" id="boton2">&times;</button>
+                      <h1>Bienvenido</h1>
+                    </div>
+                    <div class="modal-body">
+                        <img src="imagen.jpg" id="img">
+                        <h3>Diviertete y disfruta mi pagina web!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+       <h1 class="text-danger page-header" id="secccion-sobre-mi">Sobre mi</h1>
+       <div class="container">
+        <img src="bitmoji.png" class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4 img-circle">
+        <h1 class="text-warning">Esteban Iglesias</h1>
+       <h4>Acerca de mi: Soy Esteban Iglesias tengo 12 años y estoy tomando un curso de programacion porque desde chiquito me encantaban los videojuegos, al principio queria ser youtuber pero despues de varios años me empeze a fijar en otras cosas y fue cuando salio el tema de programacion para que haci pudiera hacer mis propios juegos. Me gusta mucho salir a jugar futbol con mis amigos de mi privada y aveces comemos en el parque dulces etc. mi color favorito es el rojo y me gusta mucho comer pizza . </h4>
+    <a href="mailto:janeteban2581@gmail.com?Subject=hola">
+        <h1><i class="fa fa-envelope"> </i>&nbsp;&nbsp;janeteban2581@gmail.com</h1>
+    </a>
+    <a href="www.youtube.com">
+        <h1><i class="fa fa-youtube-play"> </i>&nbsp;&nbsp;MasterGamer</h1>
+    </a>
+    <a href="www.facebook.com">
+        <h1><i class="fa fa-facebook-square"> </i>&nbsp;&nbsp;MasterGamer2510</h1>
+    </a>
+    </div>
+        </div>
+        <div id="seccion-mi-comida-favorita">
+            <div><h1 class="text-success">Mi comida favorita</h1>
+            <div id="imagenes-comida" data-toggle="collapse" data-target="#spaghetti"  class="bg-warning">
+             <h1 class="glyphicon glyphicon-cutlery"></h1>
+             Spaghetti   
+             <h1 class="glyphicon glyphicon-arrow-down"></h1>
+            </div>
+            <div class="collapse" id="spaghetti">
+            <div>
+             <img src="spaghetti.jpg" class="img-responsive img-thumbnail">
+             <p></p>
+             <h3>Me gusta el spaghetti porque tiene tres combinaciones de ingredientes que se pueden usar para distintos tipos de spaghettis ademas de que saben muy ricos
+                <p></p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+             </h3>
+            </div>
+            </div>
+            <div id="imagenes-comida" data-toggle="collapse" data-target="#Pizza"  class="bg-danger">
+                <h1 class="glyphicon glyphicon-cutlery"></h1>
+                Pizza  
+                <h1 class="glyphicon glyphicon-arrow-down"></h1>
+               </div>
+               <div class="collapse" id="Pizza">
+               <div>
+                <img src="pizza.jpg" class="img-responsive img-thumbnail">
+                <p></p>
+                <h3>Me gusta la pizza ya que sus ingredientes son variados dependiendo de la pizza, mi favorita es la de pepperoni y la hawuaiana.
+                   <p></p>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                </h3>
+               </div>
+            </div>
+            </div>
+        </div>
+            
+            <div id="videojuegos-favoritos">
+            <div><h1 class="text-danger">Mis videojuegos favoritos</h1>
+            <div id="imagenes-juegos" data-toggle="collapse" data-target="#juegos"  class="bg-warning">
+             <h1 id="icono" class="fa fa-gamepad"></h1>
+             Resident Evil   
+             <h1 class="glyphicon glyphicon-arrow-down"></h1>
+            </div>
+            <div class="collapse" id="juegos">
+            <div>
+             <img src="re.jpg" class="img-responsive img-thumbnail">
+             <p></p>
+             <h3>Me gusta Re, porque es un juegos de accion en el cual se basa en un mundo apocaliptico debido a la esparcion de un virus que convierte a la gente en muertos vivientes, esta saga cuenta con mas de 12 entregas para muchas plataformas.
+                <p></p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+             </h3>
+            </div>
+            </div>
+            <div id="imagenes-juegos" data-toggle="collapse" data-target="#juego2"  class="bg-primary">
+                <h1  id="icono"class="fa fa-gamepad"></h1>
+                Minecraft  
+                <h1 class="glyphicon glyphicon-arrow-down"></h1>
+               </div>
+               <div class="collapse" id="juego2">
+               <div>
+                <img src="minecraft.jpg" class="img-responsive img-thumbnail">
+                <p></p>
+                <h3>Me gusta minecraft ya que es un juego en el cual puedes construir cosas que te imagines y poder adentrarte en un mundo completo de imaginacion y aventura.
+                   <p></p>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                   <span class="glyphicon glyphicon-star"></span>
+                </h3>
+               </div>
+            </div>
+            </div>
+            <p></p>
+            <div class="container">
+                <h1 class="text-warning" id="donde-quisiera-ir">A donde me gustaria viajar</h1>
+                <p></p>
+                <div>
+                <img src="th (2).jpg" class="img-responsive">
+                <h1><kbd>Canada</kbd></h1>
+                <p></p>
+                <h3 class="text-muted">Me gustaria ir a canada porque es muy frio, tambien me gustaria jugar con la nieve y conocer sus lugares y cultura.</h3>
+                </div>
+                <p></p>
+                 <hr>
+                 <div id="londres">
+                 <img src="lugar 2.jpg" class="img-responsive">
+                 <h1><kbd>Londres</kbd></h1>
+                 <p></p>
+                 <h3 class="text-muted">Me gustaria ir a Londre porque ahi es donde nacieron los Beatles y me gustaria conocer su cultura y gastronomia, ademas de que me gustaria visitar el Big ben. </h3>
+                 </div>
+                 <p></p>
+                 <hr>
+                 <div id="china">
+                 <img src="lugar 3.jpg" class="img-responsive">
+                 <h1><kbd>China</kbd></h1>
+                 <p></p>
+                 <h3 class="text-muted">Quisiera ir a china mas que nada para ver su cultura y sus diferentes tipos de dioses, me gustaria conocer su gastronomia y arquitectura. Ademas de que tienen bonitos lugares como la muralla china.</h3>
+                 </div>
+                 <p></p>
+            </div>
+            <br>
+            <div  id="pasatiempos-favotitos" class="container">
+                <h1 class="text-success text-capitalize">Mis pasatiempos favoritos</h1>
+                <img src="futbol.jpg" class="img-responsive">
+                <p></p>
+                <h1><i>Futbol</i></h1>
+                <p></p>
+                <img src="videogames.jpg" class="img-responsive">
+                <p></p>
+                <h1><i>Videojuegos</i></h1>
+                <p></p>
+                <img src="programacion.jpg" class="img-responsive">
+                <p></p>
+                <h1><i>Programacion</i></h1>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
